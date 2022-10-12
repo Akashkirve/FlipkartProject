@@ -45,6 +45,7 @@ static ExtentTest extentTest;
 	public static ExtentHtmlReporter gethtmlreporter() 
 	{
 		if(htmlreporter==null) 
+			
 		{
 			htmlreporter = new ExtentHtmlReporter("reports.html");
 		}
